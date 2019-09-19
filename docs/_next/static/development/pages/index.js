@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/akonopka/Documents/aaronkonopka/components/layout.js";
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/components/layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -5067,10 +5067,10 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2Faaronkonopka%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2Faaronkonopka%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21126,7 +21126,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./pages/index.css");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-var _jsxFileName = "/Users/akonopka/Documents/aaronkonopka/pages/index.js";
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -21192,36 +21192,31 @@ var Home = function Home() {
     },
     __self: this
   }, __jsx("div", {
-    className: "d-flex h-100 justify-content-center flex-column",
+    className: "d-flex h-100 justify-content-center flex-column ",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, __jsx("div", {
+    className: 'header-main-text' + customClassName,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
   }, __jsx("h1", {
-    className: 'header-main-text f-bold' + customClassName,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "A UX Porfolio")), __jsx("div", {
+    className: 'f-bold',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx("h1", {
-    className: 'header-main-text f-bold' + customClassName,
+  }, "A UX Porfolio"), __jsx("h1", {
+    className: 'f-bold',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, "by Aaron Konopka"))))))));
@@ -21232,13 +21227,13 @@ var Home = function Home() {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2Faaronkonopka%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************/
+/*!*******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2Faaronkonopka%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2Faaronkonopka%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./");
 
 
 /***/ }),

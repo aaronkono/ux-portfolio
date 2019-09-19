@@ -20,9 +20,11 @@ const Home = () => {
         <Row className='h-100'>
           <Col className='h-100'>
             <header className='h-100'>
-              <div className='d-flex h-100 justify-content-center flex-column'>
-                <div><h1 className={'header-main-text f-bold' + customClassName}>A UX Porfolio</h1></div>
-                <div><h1 className={'header-main-text f-bold' + customClassName}>by Aaron Konopka</h1></div>
+              <div className='d-flex h-100 justify-content-center flex-column '>
+                <div className={'header-main-text' + customClassName}>
+                  <h1 className={'f-bold'}>A UX Porfolio</h1>
+                  <h1 className={'f-bold'}>by Aaron Konopka</h1>
+                </div>
               </div>
             </header>
           </Col>

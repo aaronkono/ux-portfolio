@@ -13,12 +13,24 @@ body>div {
     height:100%;
     background-color:#17171d;
 }
-h1 {
-    font-weight:900;
-}
-.header-main-text {
+.header-main-text h1 {
     color:#fff;
     font-size:64px;
+    opacity:0;
+    visibility: hidden;
+    transform:translateX(25px);
+}
+.header-main-text.active h1  {
+    opacity:1;
+    visibility: visible;
+    transform:translateX(0);
+    transition:all 420ms cubic-bezier(.165,.84,.44,1) 320ms;
+}
+.header-main-text.active h1:last-child {
+    opacity:1;
+    visibility: visible;
+    transform:translateX(0);
+    transition:all 420ms cubic-bezier(.165,.84,.44,1) 350ms;
 }
 .f-bold {
     font-weight:700;

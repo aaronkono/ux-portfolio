@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build && next export && rm -rf ./docs && mv ./out ./docs && rm -rf ./out && cp CNAME ./docs && cp .nojekyll ./docs && git add . && git commit -m \"publish\" && git push"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

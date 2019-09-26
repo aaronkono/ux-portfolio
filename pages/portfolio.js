@@ -4,17 +4,17 @@ import Nav from '../components/nav'
 import Layout from '../components/layout'
 import ProjectContainer from '../components/project-comp'
 
-const About = () => (
+const Portfolio = () => (
     <Layout>
         <Head>
-            <title>About</title>
+            <title>Portfolio</title>
         </Head>
         <Nav />
         <div>
-            <a href="/">This is the about page</a>
+            <a href="/">This is the Portfolio page</a>
         </div>
         <ProjectContainer />
     </Layout>
 )
 
-export default About
+export default Portfolio

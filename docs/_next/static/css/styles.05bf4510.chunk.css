@@ -17,14 +17,15 @@ h3 {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "photo"
     "name"
-    "about"
+    "careerObjective"
     "work"
+    "experience"
+    "programming"
+    "tools"
     "education"
-    "skills"
-    "community"
-    "references";
+    "accomplishments"
+    "awards";
     grid-gap: 5px;
 }
 .grid-area {

@@ -1,7 +1,7 @@
 .navNothing {
     position:fixed !important;
     width:100%;background-color:rgba(0,0,0,0.10) !important;
-
+    z-index:1000;
 }
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -121,14 +121,15 @@ h3 {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "photo"
     "name"
-    "about"
+    "careerObjective"
     "work"
+    "experience"
+    "programming"
+    "tools"
     "education"
-    "skills"
-    "community"
-    "references";
+    "accomplishments"
+    "awards";
     grid-gap: 5px;
 }
 .grid-area {

@@ -1,8 +1,11 @@
 html, body {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Titillium Web', sans-serif !important;
 }
 .header-vh-100 {
     height:100vh;
+}
+.header-font {
+    font-family: 'Playfair Display', serif !important;
 }
 .bg-bl {
     background-color:#17171d;

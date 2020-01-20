@@ -128,7 +128,6 @@ var Navigation = function Navigation() {
     className: "navNothing",
     bg: "",
     variant: "dark",
-    expand: "lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -28126,7 +28125,7 @@ var Cv = function Cv() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcv&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Fcv.js ***!
   \****************************************************************************************************************************************/
@@ -28149,5 +28148,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=cv.js.map

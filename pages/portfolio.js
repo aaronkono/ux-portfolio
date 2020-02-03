@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import Layout from '../components/layout'
-import ProjectContainer from '../components/project-comp'
+import ProjectContainer from '../components/projectComp'
 
 const Portfolio = () => (
     <Layout>

@@ -27764,17 +27764,31 @@ var Home = function Home() {
       lineNumber: 26
     },
     __self: this
-  }, "A UX Porfolio"), __jsx("h2", {
+  }, "I create some pretty nice things on the web, check them out"), __jsx("h2", {
     className: 'f-light header-font',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Thought I'd start off with something generic like 'I create memborable experiences for users' but I thought better of it."))))))), __jsx(_components_projectComp__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Oh yeah and nearly forgot, users are people too \uD83D\uDE09"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Button"], {
+    variant: "outline-light",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 28
+    },
+    __self: this
+  }, "Check out my projects ", __jsx("i", {
+    className: "fal fa-long-arrow-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  })))))))), __jsx(_components_projectComp__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }));

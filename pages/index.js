@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Nav from '../components/nav';
 import Layout from '../components/layout';
 import './index.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import ProjectContainer from '../components/projectComp';
 
 const Home = () => {
@@ -23,8 +23,9 @@ const Home = () => {
             <header className='header-vh-100'>
               <div className='d-flex h-100 justify-content-center flex-column '>
                 <div className={'header-main-text' + customClassName}>
-                  <h1 className={'f-semi header-font'}>A UX Porfolio</h1>
-                  <h2 className={'f-light header-font'}>Thought I'd start off with something generic like 'I create memborable experiences for users' but I thought better of it.</h2>
+                  <h1 className={'f-semi header-font'}>I create some pretty nice things on the web, check them out</h1>
+                  <h2 className={'f-light header-font'}>Oh yeah and nearly forgot, users are people too 😉</h2>
+                  <Button variant="outline-light">Check out my projects <i className='fal fa-long-arrow-right'></i></Button>
                 </div>
               </div>
             </header>

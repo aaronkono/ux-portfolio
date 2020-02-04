@@ -20,13 +20,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _components_layout_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/layout.css */ "./components/layout.css");
+/* harmony import */ var _components_layout_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_components_layout_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
-var _jsxFileName = "/Users/teamva/Documents/GitHub/ux-portfolio/components/layout.js";
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/components/layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
 
 
 
@@ -46,15 +49,16 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx("div", {
+        className: "bgDark",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, __jsx("link", {
@@ -62,7 +66,7 @@ function (_React$Component) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }), __jsx("link", {
@@ -70,7 +74,7 @@ function (_React$Component) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       })), this.props.children);
@@ -100,7 +104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _components_nav_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/nav.css */ "./components/nav.css");
 /* harmony import */ var _components_nav_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_nav_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/teamva/Documents/GitHub/ux-portfolio/components/nav.js";
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/components/nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -180,10 +184,10 @@ var Navigation = function Navigation() {
 
 /***/ }),
 
-/***/ "./components/project-comp.js":
-/*!************************************!*\
-  !*** ./components/project-comp.js ***!
-  \************************************/
+/***/ "./components/projectComp.js":
+/*!***********************************!*\
+  !*** ./components/projectComp.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -192,9 +196,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _project_comp_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./project-comp.css */ "./components/project-comp.css");
-/* harmony import */ var _project_comp_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_project_comp_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/teamva/Documents/GitHub/ux-portfolio/components/project-comp.js";
+/* harmony import */ var _projectComp_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projectComp.css */ "./components/projectComp.css");
+/* harmony import */ var _projectComp_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_projectComp_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/components/projectComp.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -220,52 +224,188 @@ var ProjectContainer = function ProjectContainer() {
       lineNumber: 8
     },
     __self: this
-  }, __jsx("div", {
-    className: "project-grid",
+  }, __jsx("h1", {
+    className: "text-white mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
+  }, "Works"), __jsx("div", {
+    className: "project-grid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }, __jsx("div", {
+    className: "project-thumbnail dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
-  }, __jsx("h4", {
+  }, __jsx("a", {
+    href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
-  }, "Vivamus ac ex vel nisi semper volutpat")), __jsx("div", {
+  }, __jsx("div", {
+    className: "thumbnail-inner",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }, __jsx("img", {
     className: "img-fluid",
-    src: "https://media.toop.com.au/photos2019/2019/2022091/2022091-482035-1620x1080.jpg",
+    src: "https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 15
     },
     __self: this
   })), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
-  }, __jsx("p", {
+  }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: this
-  }, "grid 3 hi mittali"))))));
+  }, "FIX Platform - Manage"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue luctus lectus")))), __jsx("div", {
+    className: "project-thumbnail dark right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "thumbnail-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "img-fluid",
+    src: "https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  })), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Toop&Toop Website"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue luctus lectus"))), __jsx("div", {
+    className: "project-thumbnail dark",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "thumbnail-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "img-fluid",
+    src: "https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "FIX Platform - Tenant"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue luctus lectus"))), __jsx("div", {
+    className: "project-thumbnail dark right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "thumbnail-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "img-fluid",
+    src: "https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  })), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "FIX Platform - Owner"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue luctus lectus")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ProjectContainer);
@@ -6905,10 +7045,10 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./":
-/*!*************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27528,8 +27668,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.css */ "./pages/index.css");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _components_project_comp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/project-comp */ "./components/project-comp.js");
-var _jsxFileName = "/Users/teamva/Documents/GitHub/ux-portfolio/pages/index.js";
+/* harmony import */ var _components_projectComp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/projectComp */ "./components/projectComp.js");
+var _jsxFileName = "/Users/akonopka/Documents/GitHub/ux-portfolio/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -27573,7 +27713,7 @@ var Home = function Home() {
     __self: this
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     fluid: true,
-    className: "bg-bl",
+    className: "bgDark",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -27631,7 +27771,13 @@ var Home = function Home() {
       lineNumber: 27
     },
     __self: this
-  }, "by Aaron Konopka"))))))));
+  }, "Thought I'd start off with something generic like 'I create memborable experiences for users' but I thought better of it."))))))), __jsx(_components_projectComp__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -27639,13 +27785,13 @@ var Home = function Home() {
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fpages%2Findex.js!./");
 
 
 /***/ }),

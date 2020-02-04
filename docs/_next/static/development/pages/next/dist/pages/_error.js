@@ -3121,10 +3121,10 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
-/*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \***********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3669,14 +3669,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265
 
 /***/ }),
 
-/***/ 5:
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ 6:
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fakonopka%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
 
 
 /***/ }),
@@ -3692,5 +3692,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

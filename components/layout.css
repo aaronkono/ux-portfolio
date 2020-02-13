@@ -1,5 +1,11 @@
 html, body {
-    font-family: 'Titillium Web', sans-serif !important;
+    font-family: 'Merriweather', serif !important;
+}
+p {
+    letter-spacing:.02em !important;
+}
+.container-spacer {
+    padding-top:4rem;padding-bottom:4rem;
 }
 .bgDark {
     background-color:#121212;
@@ -44,7 +50,11 @@ html, body {
 .f-bold {
     font-weight:700;
 }
-
+.iteration-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:55px;
+}
 @media (min-width: 1200px) {
     .header-main-text h1 {
         font-size:64px;

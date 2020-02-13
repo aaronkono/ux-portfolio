@@ -10,7 +10,7 @@ class Layout extends React.Component {
       <div className='bgDark'>
         <Head>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:500&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300&display=swap" rel="stylesheet" />
         </Head>
         {this.props.children}
       </div>

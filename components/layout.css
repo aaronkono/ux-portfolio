@@ -9,6 +9,22 @@ html, body {
     background-color:#232F3E;
     color:#bdc0c5;
 }
+a:active, a:focus, button:active, button:focus, .btn:active, .btn:focus {
+    outline-offset: 4px;
+    outline:1px dashed #231f20;
+}
+.ak--body-title {
+    margin-bottom:16px;font-size:35px;
+}
+.ak--body-subtitle {
+    font-size:18px;opacity:0.65;
+}
+.ak--body-title.ak--wh, .ak--body-subtitle.ak--wh {
+    color:#fff;
+}
+.mt-18 {
+    margin-top:18px;
+}
 .mb-36 {
     margin-bottom:36px;
 }
@@ -21,9 +37,9 @@ p {
 .bgDark {
     background-color:#121212;
 }
-.header-vh-100 {
+/* .header-vh-100 {
     height:100vh;
-}
+} */
 .header-font {
     font-family: 'Playfair Display', serif !important;
 }
@@ -32,7 +48,7 @@ p {
 }
 .header-main-text h1 {
     color:#231f20;
-    font-size:48px;
+    font-size:48px;line-height:1.33em;
     opacity:0;
     transform:translateX(25px);
 }
@@ -82,10 +98,39 @@ p {
 .btn-md {
     padding:10px 15px;
 }
+.btn-ak--outline-wh {
+    border:1px solid rgba(255,255,255,0.6);
+    color:rgba(255,255,255,0.6);
+    border-radius:4px;
+}
+.btn-ak--outline-wh:hover {
+    background-color:#fff;
+    color:#231f20;
+}
 /* End Button */
+.ak--container-spacer {
+    padding-top: 3.34rem;
+    padding-bottom: 3.34rem;
+}
+@media (min-width: 768px) {
+    .ak--container-spacer {
+        padding-top: 5.34rem;
+        padding-bottom: 5.34rem;
+    }
+}
 @media (min-width: 1200px) {
+    .ak--container {
+        max-width:960px;
+        margin:0 auto;
+    }
+}
+@media (min-width: 1290px) {
     .header-main-text h1 {
         font-size:54px;
         line-height: 1.33em;
+    }
+    .ak--container {
+        max-width:1440px;
+        margin:0 auto;
     }
 }

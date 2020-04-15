@@ -3,10 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './projectComp.css';
 
 const ProjectContainer = () => (
-  <Container fluid={true}>
+  <Container fluid={true} className='ak--container-spacer'>
     <Row>
       <Col xs={12}>
-        <h1 className='mb-36 f-bold'>Works</h1>
+        <div className='ak--container'>
+        <h2 className='f-bold text-center ak--body-title'>Transforming ideas into products</h2>
+        <p className='ak--body-subtitle text-center mb-36'>Process driven design & development from beginning to end</p>
         <div className='project-grid'>
           <div className='project-thumbnail'>
             <a href="/inspect-app">
@@ -78,6 +80,7 @@ const ProjectContainer = () => (
             </div>
             </a>
           </div>
+        </div>
         </div>
       </Col>
     </Row>

@@ -14,7 +14,7 @@ const links = [
 })
 
 const Navigation = () => (
-  <Navbar className='navNothing' bg="" variant="dark">
+  <Navbar className='navNothing' bg="">
     <Navbar.Brand href="/">AK</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse>

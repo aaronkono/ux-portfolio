@@ -17,15 +17,14 @@ const Home = () => {
         <title>Home</title>
       </Head>
       <Nav />
-      <Container fluid={true} className='bgDark'>
+      <Container fluid={true}>
         <Row>
-          <Col xs={12} xl={{ span: 6, offset: 3 }}>
+          <Col xs={12}>
             <header className='header-vh-100'>
               <div className='d-flex h-100 justify-content-center flex-column '>
                 <div className={'header-main-text' + customClassName}>
-                  <h1 className={'f-semi header-font'}>I create some pretty nice things on the web, check them out</h1>
-                  <h2 className={'f-light header-font'}>Oh yeah and nearly forgot, users are people too 😉</h2>
-                  <Button variant="outline-light">Check out my projects <i className='fal fa-long-arrow-right'></i></Button>
+                  <h1 className={'f-semi header-font'}>Hi, Aaron Konopka is the name! I live and breath product design and management. My specialty lies in creating a cohesive balance between UX and UI design, throughout the whole product lifecycle. I also come neatly packaged with a technical background and an impeccable taste is shoes. Pleasure to meet you...</h1>
+                  <a href='/portfolio' className='btn btn-ak--outline btn-md'>Check out what i've worked on <i className='fal fa-long-arrow-right'></i></a>
                 </div>
               </div>
             </header>

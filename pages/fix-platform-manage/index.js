@@ -9,7 +9,7 @@ import {
   LeftColumn,
   RightColumn,
   StickyContainer,
-} from "./styles";
+} from "../../components/stickyScroll";
 import CtaContainer from "../../components/ctaContainer";
 import Footer from "../../components/footer";
 

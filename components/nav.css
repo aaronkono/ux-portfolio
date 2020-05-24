@@ -1,7 +1,11 @@
 .navNothing {
-    position:fixed !important;
-    width:100%;
-    z-index:1000;
-    background-color:#fff;
-    box-shadow:0 0 2rem rgba(0,0,0,0.05);
+  position: fixed !important;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+}
+.ak-nav {
+  height: 67px;
+  padding: 0 !important;
 }

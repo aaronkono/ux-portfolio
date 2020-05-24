@@ -3,17 +3,17 @@ import styled from "styled-components";
 export const SectionContainer = styled.section`
   display: flex;
   flex-direction: row;
-  max-width: 1140px;
-  margin: 0 auto;
+  flex-shrnk: 0;
+  padding-top: 5.34rem;
+  padding-bottom: 5.34rem;
 `;
 export const LeftColumn = styled.div`
-  width: 50%;
+  width: 33%;
 `;
 export const RightColumn = styled.div`
-  width: 49%;
+  width: 65%;
 `;
-
 export const StickyContainer = styled.div`
   position: sticky;
-  top: 56px;
+  top: 100px;
 `;

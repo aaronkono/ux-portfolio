@@ -1,0 +1,8 @@
+.ak-container--header {
+  height: 90vh;
+}
+@media (min-width: 1200px) {
+  .ak-container--header {
+    height: 80vh;
+  }
+}

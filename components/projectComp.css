@@ -4,9 +4,9 @@
   grid-gap: 35px;
 }
 .thumbnail-inner {
-  width: 100%;
+  /* width: 100%;
   height: 296px;
-  overflow: hidden;
+  overflow: hidden; */
   padding: 16px;
 }
 .project-thumbnail a {
@@ -23,7 +23,7 @@
 }
 .project-thumbnail h4 {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 16px;
 }
 .project-thumbnail p {
@@ -34,9 +34,9 @@
   padding: 0 16px 24px;
 }
 .project-thumbnail img {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; */
 }
 /* .project-thumbnail.right {
     margin-top:76px;
@@ -64,9 +64,9 @@
 }
 @media (min-width: 1200px) {
   .thumbnail-inner {
-    width: 100%;
+    /* width: 100%;
     height: 265px;
-    overflow: hidden;
+    overflow: hidden; */
     padding: 16px;
   }
 }

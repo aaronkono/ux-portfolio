@@ -21,29 +21,42 @@ const Home = () => {
       <Nav />
       <Container
         fluid={true}
-        className="ak-container--header ak--container-spacer ak--blue-container"
+        className="ak-container--header ak--container-spacer ak-project--container"
       >
         <Row className="h-100">
           <Col xs={12} className="h-100">
             <header className="h-100">
               <div className="ak--container d-flex h-100 align-items-center justify-content-center flex-column ">
                 <div className={"header-main-text" + customClassName}>
-                  <h1 className={"f-bold header-font mb-36"}>
+                  <h1 className={"f-bold header-font mb-18"}>
                     {/* Hi, Aaron Konopka is the name! I live and breath product
                     design. My specialty lies in creating a cohesive balance
                     between UX and UI design, throughout the whole product
                     lifecycle. I also come neatly packaged with a technical
                     background and an impeccable taste is shoes. Pleasure to
                     meet you... */}
-                    Hi, Aaron Konopka is the name! I live and breath product
-                    design, creating a cohesive balance between UX and UI
-                    design, throughout the whole product lifecycle. I also come
-                    neatly packaged with a technical background and an
-                    impeccable taste is shoes. Pleasure to meet you...
+                    {/* Hi, Aaron Konopka is the name! I live and breath product
+                    design, creating a cohesive balance between UX, UI design
+                    and user needs throughout the whole product lifecycle. I
+                    also come neatly packaged with a technical background and an
+                    impeccable taste is shoes. Pleasure to meet you... */}
+                    UX / UI Designer with a technical background focused on
+                    accessible and inclusive design
                   </h1>
-                  <a href="/portfolio" className="btn btn-ak--outline btn-md">
+                  <p>
+                    Hi, Aaron Konopka is the name! I live and breath product
+                    design, creating a cohesive balance between UX, UI design
+                    and user needs throughout the whole product lifecycle. I
+                    also have an impeccable taste in shoes. Pleasure to meet
+                    you...
+                  </p>
+                  <a
+                    href="/portfolio"
+                    className="btn btn-ak--text position-relative"
+                  >
                     Check out what i've worked on{" "}
                     <i className="fal fa-long-arrow-right"></i>
+                    <div className="btn-ak--textUnderline"></div>
                   </a>
                 </div>
               </div>

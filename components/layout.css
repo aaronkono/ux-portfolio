@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
   color: #072938;
   letter-spacing: 0.01em;
 }
@@ -36,6 +36,9 @@ button:focus,
 .mt-18 {
   margin-top: 18px;
 }
+.mb-18 {
+  margin-bottom: 18px;
+}
 .mb-36 {
   margin-bottom: 36px;
 }
@@ -56,8 +59,18 @@ p {
   background-color: #17171d;
 }
 .header-main-text h1 {
-  font-size: 30px;
+  font-size: 44px;
+  line-height: 1.1em;
+  opacity: 0;
+  transform: translateX(25px);
+}
+.header-main-text p {
+  font-size: 22px;
   line-height: 1.33em;
+  opacity: 0;
+  transform: translateX(25px);
+}
+.header-main-text a {
   opacity: 0;
   transform: translateX(25px);
 }
@@ -71,10 +84,15 @@ p {
   transform: translateX(0);
   transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1) 320ms;
 }
-.header-main-text.active h2 {
-  opacity: 0.87;
+.header-main-text.active p {
+  opacity: 1;
   transform: translateX(0);
-  transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1) 350ms;
+  transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1) 380ms;
+}
+.header-main-text.active a {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 420ms cubic-bezier(0.165, 0.84, 0.44, 1) 410ms;
 }
 .f-light {
   font-weight: 300;
@@ -97,6 +115,47 @@ p {
   box-shadow: 0 0.25rem 0.5rem rgba(5, 27, 27, 0.15);
 }
 /* Button */
+.btn-ak--text {
+  padding: 0;
+  outline: 0;
+  color: #072938;
+}
+.btn-ak--text i {
+  margin-left: 3px;
+  transition: all 320ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn-ak--textUnderline {
+  width: 0;
+  position: absolute;
+}
+.btn-ak--text:hover i {
+  transform: translateX(5px);
+  transition: all 320ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn-ak--text:hover .btn-ak--textUnderline {
+  width: 100%;
+  height: 2px;
+  background-color: #072938;
+  animation: animateUnderline 500ms forwards;
+}
+@keyframes animateUnderline {
+  0% {
+    width: 100%;
+    right: 0;
+  }
+  33% {
+    width: 0%;
+    right: 0;
+  }
+  100% {
+    width: 0%;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
 .btn-ak--outline {
   border: 1px solid #231f20;
   color: #231f20;
@@ -120,8 +179,8 @@ p {
 }
 /* End Button */
 .ak--container-spacer {
-  padding-top: 3.34rem;
-  padding-bottom: 3.34rem;
+  padding-top: 2.34rem;
+  padding-bottom: 2.34rem;
 }
 .ak-project--container {
   background-color: #e8f3f8;
@@ -131,8 +190,8 @@ p {
 }
 @media (min-width: 768px) {
   .ak--container-spacer {
-    padding-top: 5.34rem;
-    padding-bottom: 5.34rem;
+    padding-top: 2.34rem;
+    padding-bottom: 2.34rem;
   }
 }
 @media (min-width: 1200px) {

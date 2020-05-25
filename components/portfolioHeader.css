@@ -16,3 +16,26 @@
   width: 100%;
   height: 100%;
 }
+@media (min-width: 1280px) {
+  .project-header-container--innerImg {
+    max-width: 1200px;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -50px;
+  }
+}
+@media (min-width: 1440px) {
+  .project-header-container--innerImg {
+    max-width: 1650px;
+    min-width: 1200px;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -50px;
+  }
+}

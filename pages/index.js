@@ -16,7 +16,10 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>Home</title>
+        <title>
+          Aaron Konopka, Product designer with a big dash of UX, UI design
+          methodology
+        </title>
       </Head>
       <Nav />
       <Container

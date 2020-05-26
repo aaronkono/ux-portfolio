@@ -8,8 +8,9 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer,
+  StickyContainer
 } from "../../components/stickyScroll";
+import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
 import Footer from "../../components/footer";
 
@@ -17,7 +18,9 @@ export default function FixPlatformManage() {
   return (
     <Layout>
       <Head>
-        <title>Manage - FIX Platform</title>
+        <title>
+          Manage - FIX Platform &middot; Aaron Konopka, UX / UI Designer
+        </title>
       </Head>
       <Nav />
       <header>
@@ -25,11 +28,11 @@ export default function FixPlatformManage() {
           <Row>
             <Col xs={12}>
               <PortfolioHeader
-                projectTitle={<h2 className="f-bold">Toop&Toop Website</h2>}
+                projectTitle={<h2 className="f-bold">Manage - FIX Platform</h2>}
                 projectOverview={
-                  <p className="">
-                    Top line project overview Top line project overview Top line
-                    project overview Top line project overview
+                  <p className="f-light">
+                    FIX is a SaaS platform which connects tenants, owners,
+                    property managers and suppliers together.
                   </p>
                 }
               />
@@ -41,7 +44,7 @@ export default function FixPlatformManage() {
             <Col>
               <div className="project-header-container d-flex">
                 <div className="project-header-container--innerImg ml-auto">
-                  <img src="./static/toop-website-header.jpg" />
+                  <img src="./static/manage-fix-header.jpg" />
                 </div>
               </div>
               <div className="ak--container">
@@ -50,12 +53,12 @@ export default function FixPlatformManage() {
                     <p className="mb-0">
                       <strong>Client</strong>
                     </p>
-                    <p className="">Toop&Toop</p>
+                    <p className="">Virtual Agent</p>
 
                     <p className="mb-0">
                       <strong>Timeframe</strong>
                     </p>
-                    <p className="">6 months</p>
+                    <p className="">Ongoing</p>
 
                     <p className="mb-0 ">
                       <strong>Specfic Role</strong>
@@ -67,7 +70,7 @@ export default function FixPlatformManage() {
                     <p className="mb-0 ">
                       <strong>Problem</strong>
                     </p>
-                    <p className="">
+                    <p className="f-light">
                       Aliquam a vestibulum lectus. Cras in velit pellentesque,
                       consequat purus id, tincidunt leo. Nullam mollis tincidunt
                       lacus, tempus vulputate nisi blandit sit amet.
@@ -83,8 +86,11 @@ export default function FixPlatformManage() {
         <LeftColumn>
           <StickyContainer>
             <h2 className="f-bold mb-0 ">The Process</h2>
-            <p className="mb-0">Let the fun begin</p>
-            <p>Design thinking paragraphs</p>
+            <p className="f-light">
+              Focusing on user needs and empathising, the journey throughout the
+              product lifecycle began. The website went through multiple
+              different iterations, let's dive into it!
+            </p>
           </StickyContainer>
         </LeftColumn>
         <RightColumn>
@@ -95,6 +101,135 @@ export default function FixPlatformManage() {
                 src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
               />
             </div>
+          </div>
+        </RightColumn>
+      </SectionContainer>
+
+      <SectionContainer className="ak--container">
+        <LeftColumn>
+          <StickyContainer>
+            <h2 className="f-bold mb-0 ">User flows</h2>
+            {/* <p className="f-light">
+              Focusing on user needs and empathising, the journey throughout the
+              product lifecycle began. The website went through multiple
+              different iterations, let's dive into it!
+            </p> */}
+          </StickyContainer>
+        </LeftColumn>
+        <RightColumn>
+          <div className="iteration-grid">
+            <div>
+              <img
+                className="img-fluid"
+                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+              />
+            </div>
+          </div>
+        </RightColumn>
+      </SectionContainer>
+
+      <SectionContainer className="ak--container">
+        <LeftColumn>
+          <StickyContainer>
+            <h2 className="f-bold mb-0 ">Wireframes</h2>
+            {/* <p className="f-light">
+              Focusing on user needs and empathising, the journey throughout the
+              product lifecycle began. The website went through multiple
+              different iterations, let's dive into it!
+            </p> */}
+          </StickyContainer>
+        </LeftColumn>
+        <RightColumn>
+          <div className="iteration-grid">
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-2.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-5.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-6.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-7.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-8.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-9.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-assets.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-thumbnails.jpg"
+              />
+            </div>
+          </div>
+        </RightColumn>
+      </SectionContainer>
+
+      <SectionContainer className="ak--container">
+        <LeftColumn>
+          <StickyContainer>
+            <h2 className="f-bold mb-0 ">Prototypes</h2>
+            {/* <p className="f-light">
+              Focusing on user needs and empathising, the journey throughout the
+              product lifecycle began. The website went through multiple
+              different iterations, let's dive into it!
+            </p> */}
+          </StickyContainer>
+        </LeftColumn>
+        <RightColumn>
+          <div className="iteration-grid">
             <div>
               <img
                 className="img-fluid"
@@ -121,24 +256,54 @@ export default function FixPlatformManage() {
         <Row>
           <Col>
             <div className="ak--container">
-              <h2 className="mb-0 f-bold">Results</h2>
-              <p className="">Metrics & Measurements</p>
-              <div className="d-flex flex-row flex-wrap">
-                <div className="d-flex flex-row w-50">
+              <h2 className="mb-0 f-bold text-center">Results</h2>
+              <p className="text-center">Metrics & Measurements</p>
+              <MetricGrid>
+                <div>
                   <div>
-                    <i className="fal fa-check"></i>
+                    <i className="fal fa-chart-line fa-3x"></i>
                   </div>
                   <div>
-                    <p className="mb-0">Result stats</p>
-                  </div>
-                </div>
-                <div className="d-flex flex-row w-50">
-                  <div>icon</div>
-                  <div>
-                    <p className="mb-0">Result stats</p>
+                    <h4>80%</h4>
+                    <p className="mb-0">Increased property searchability</p>
                   </div>
                 </div>
-              </div>
+                <div>
+                  <div>
+                    <i className="fal fa-chart-line fa-3x"></i>
+                  </div>
+                  <div>
+                    <h4>
+                      80% <i className="fal fa-long-arrow-up"></i>
+                    </h4>
+                    <p className="mb-0">Website retention rate</p>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <i className="fal fa-chart-line fa-3x"></i>
+                  </div>
+                  <div>
+                    <h4>
+                      30.98% <i className="fal fa-long-arrow-up"></i>
+                    </h4>
+                    <p className="mb-0">New user traffic</p>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <i className="fal fa-chart-line fa-3x"></i>
+                  </div>
+                  <div>
+                    <h4>
+                      60% <i className="fal fa-long-arrow-up"></i>
+                    </h4>
+                    <p className="mb-0">
+                      More efficient at searching for properties
+                    </p>
+                  </div>
+                </div>
+              </MetricGrid>
             </div>
           </Col>
         </Row>

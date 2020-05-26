@@ -8,11 +8,11 @@ export const SectionContainer = styled.section`
   padding-bottom: 5.34rem;
 `;
 export const LeftColumn = styled.div`
-  width: 35%;
+  width: 31%;
   padding-right: 32px;
 `;
 export const RightColumn = styled.div`
-  width: 65%;
+  width: 68%;
 `;
 export const StickyContainer = styled.div`
   position: sticky;

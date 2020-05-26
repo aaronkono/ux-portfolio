@@ -30,7 +30,7 @@ export default function FixPlatformManage() {
               <PortfolioHeader
                 projectTitle={<h2 className="f-bold">Toop&Toop Website</h2>}
                 projectOverview={
-                  <p className="">
+                  <p className="f-light">
                     Modernise and create a memorable experience for all new and
                     returning clients to the website with cross team
                     collaboration.
@@ -158,19 +158,61 @@ export default function FixPlatformManage() {
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/toop-website-wireframe-2.jpg"
               />
             </div>
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/toop-website-wireframe-3.jpg"
               />
             </div>
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/toop-website-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-5.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-6.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-7.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-8.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-9.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-assets.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-thumbnails.jpg"
               />
             </div>
           </div>
@@ -234,7 +276,7 @@ export default function FixPlatformManage() {
                   </div>
                   <div>
                     <h4>
-                      80% <i class="fal fa-long-arrow-up"></i>
+                      80% <i className="fal fa-long-arrow-up"></i>
                     </h4>
                     <p className="mb-0">Website retention rate</p>
                   </div>
@@ -245,7 +287,7 @@ export default function FixPlatformManage() {
                   </div>
                   <div>
                     <h4>
-                      30.98% <i class="fal fa-long-arrow-up"></i>
+                      30.98% <i className="fal fa-long-arrow-up"></i>
                     </h4>
                     <p className="mb-0">New user traffic</p>
                   </div>
@@ -256,7 +298,7 @@ export default function FixPlatformManage() {
                   </div>
                   <div>
                     <h4>
-                      60% <i class="fal fa-long-arrow-up"></i>
+                      60% <i className="fal fa-long-arrow-up"></i>
                     </h4>
                     <p className="mb-0">
                       More efficient at searching for properties

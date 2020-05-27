@@ -18,9 +18,7 @@ export default function FixPlatformManage() {
   return (
     <Layout>
       <Head>
-        <title>
-          Manage - FIX Platform &middot; Aaron Konopka, UX / UI Designer
-        </title>
+        <title>Lululiv Website &middot; Aaron Konopka, UX / UI Designer</title>
       </Head>
       <Nav />
       <header>
@@ -28,11 +26,12 @@ export default function FixPlatformManage() {
           <Row>
             <Col xs={12}>
               <PortfolioHeader
-                projectTitle={<h2 className="f-bold">Manage - FIX Platform</h2>}
+                projectTitle={<h2 className="f-bold">Lululiv Website</h2>}
                 projectOverview={
                   <p className="f-light f-lead">
-                    FIX is a SaaS platform which connects tenants, owners,
-                    property managers and suppliers together.
+                    Modernise and create a memorable experience for all new and
+                    returning clients to the website with cross team
+                    collaboration.
                   </p>
                 }
               />
@@ -44,7 +43,7 @@ export default function FixPlatformManage() {
             <Col>
               <div className="project-header-container d-flex">
                 <div className="project-header-container--innerImg ml-auto">
-                  <img src="./static/manage-fix-header.jpg" />
+                  <img src="./static/lululiv-website-header.jpg" />
                 </div>
               </div>
               <div className="ak--container">
@@ -53,12 +52,12 @@ export default function FixPlatformManage() {
                     <p className="mb-0">
                       <strong>Client</strong>
                     </p>
-                    <p className="">Virtual Agent</p>
+                    <p className="">Toop&Toop</p>
 
                     <p className="mb-0">
                       <strong>Timeframe</strong>
                     </p>
-                    <p className="">Ongoing</p>
+                    <p className="">6 months</p>
 
                     <p className="mb-0 ">
                       <strong>Specfic Role</strong>
@@ -71,9 +70,10 @@ export default function FixPlatformManage() {
                       <strong>Problem</strong>
                     </p>
                     <p className="f-light">
-                      Aliquam a vestibulum lectus. Cras in velit pellentesque,
-                      consequat purus id, tincidunt leo. Nullam mollis tincidunt
-                      lacus, tempus vulputate nisi blandit sit amet.
+                      The legacy Toop&Toop website did not take into account
+                      what users wanted / needed when they came to the site. It
+                      was difficult to navigate, find properties and find sales
+                      partners / the team alike to make an enquiry.
                     </p>
                   </div>
                 </div>
@@ -154,10 +154,64 @@ export default function FixPlatformManage() {
         <RightColumn>
           <div className="iteration-grid">
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-aa.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-2.jpg"
+              />
             </div>
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-gq.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-5.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-6.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-7.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-8.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-9.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-assets.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-thumbnails.jpg"
+              />
             </div>
           </div>
         </RightColumn>

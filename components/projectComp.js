@@ -31,10 +31,7 @@ const ProjectContainer = () => (
             <div className="project-thumbnail">
               <a href="/fix-platform-tenant">
                 <div className="thumbnail-inner">
-                  <img
-                    className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
-                  />
+                  <img className="img-fluid" src="./static/tenant-fix-th.jpg" />
                 </div>
                 <div>
                   <h4>FIX Platform - Tenant</h4>
@@ -47,15 +44,15 @@ const ProjectContainer = () => (
             </div>
 
             <div className="project-thumbnail">
-              <a href="/fix-platform-owner">
+              <a href="/fix-platform-landlord">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
+                    src="./static/landlord-fix-th.jpg"
                   />
                 </div>
                 <div>
-                  <h4>FIX Platform - Owner</h4>
+                  <h4>FIX Platform - Landlord</h4>
                   <p className="mb-0">
                     Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
                     luctus lectus
@@ -83,11 +80,11 @@ const ProjectContainer = () => (
               </a>
             </div>
             <div className="project-thumbnail">
-              <a href="/inspect-app">
+              <a href="/lululiv-principal-dashboard">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
+                    src="./static/lululiv-dashboard-th.jpg"
                   />
                 </div>
                 <div>
@@ -105,7 +102,7 @@ const ProjectContainer = () => (
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
+                    src="./static/renew-website-th.jpg"
                   />
                 </div>
                 <div>
@@ -118,15 +115,12 @@ const ProjectContainer = () => (
               </a>
             </div>
             <div className="project-thumbnail">
-              <a href="/renew-platform">
+              <a href="/virtualagent-website">
                 <div className="thumbnail-inner">
-                  <img
-                    className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
-                  />
+                  <img className="img-fluid" src="./static/va-website-th.jpg" />
                 </div>
                 <div>
-                  <h4>VirtualAgent Website</h4>
+                  <h4>Virtual Agent Website</h4>
                   <p className="mb-0">
                     Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
                     luctus lectus
@@ -135,11 +129,11 @@ const ProjectContainer = () => (
               </a>
             </div>
             <div className="project-thumbnail">
-              <a href="/renew-platform">
+              <a href="/lululiv-website">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="https://images.unsplash.com/photo-1553531580-652231dae097?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
+                    src="./static/lululiv-website-th.jpg"
                   />
                 </div>
                 <div>

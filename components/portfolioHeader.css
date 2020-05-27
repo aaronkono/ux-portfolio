@@ -3,7 +3,7 @@
   margin-bottom: 125px;
 }
 .project-header-container--innerImg {
-  max-width: 1650px;
+  max-width: 90%;
   right: 0;
   text-align: right;
   width: 100%;
@@ -18,7 +18,7 @@
 }
 @media (min-width: 1280px) {
   .project-header-container--innerImg {
-    max-width: 1200px;
+    max-width: 87%;
     right: 0;
     text-align: right;
     width: 100%;
@@ -29,7 +29,7 @@
 }
 @media (min-width: 1440px) {
   .project-header-container--innerImg {
-    max-width: 1650px;
+    max-width: 87%;
     min-width: 1200px;
     right: 0;
     text-align: right;

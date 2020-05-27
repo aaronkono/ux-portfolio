@@ -8,7 +8,7 @@ export const SectionContainer = styled.section`
   padding-bottom: 5.34rem;
 `;
 export const LeftColumn = styled.div`
-  width: 31%;
+  width: 32%;
   padding-right: 32px;
 `;
 export const RightColumn = styled.div`

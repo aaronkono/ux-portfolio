@@ -19,7 +19,7 @@ export default function FixPlatformManage() {
     <Layout>
       <Head>
         <title>
-          Manage - FIX Platform &middot; Aaron Konopka, UX / UI Designer
+          Virtual Agent Website &middot; Aaron Konopka, UX / UI Designer
         </title>
       </Head>
       <Nav />
@@ -28,11 +28,12 @@ export default function FixPlatformManage() {
           <Row>
             <Col xs={12}>
               <PortfolioHeader
-                projectTitle={<h2 className="f-bold">Manage - FIX Platform</h2>}
+                projectTitle={<h2 className="f-bold">Virtual Agent Website</h2>}
                 projectOverview={
                   <p className="f-light f-lead">
-                    FIX is a SaaS platform which connects tenants, owners,
-                    property managers and suppliers together.
+                    Modernise and create a memorable experience for all new and
+                    returning clients to the website with cross team
+                    collaboration.
                   </p>
                 }
               />
@@ -44,7 +45,7 @@ export default function FixPlatformManage() {
             <Col>
               <div className="project-header-container d-flex">
                 <div className="project-header-container--innerImg ml-auto">
-                  <img src="./static/manage-fix-header.jpg" />
+                  <img src="./static/va-website-header.jpg" />
                 </div>
               </div>
               <div className="ak--container">
@@ -58,7 +59,7 @@ export default function FixPlatformManage() {
                     <p className="mb-0">
                       <strong>Timeframe</strong>
                     </p>
-                    <p className="">Ongoing</p>
+                    <p className="">Two weeks</p>
 
                     <p className="mb-0 ">
                       <strong>Specfic Role</strong>
@@ -71,9 +72,10 @@ export default function FixPlatformManage() {
                       <strong>Problem</strong>
                     </p>
                     <p className="f-light">
-                      Aliquam a vestibulum lectus. Cras in velit pellentesque,
-                      consequat purus id, tincidunt leo. Nullam mollis tincidunt
-                      lacus, tempus vulputate nisi blandit sit amet.
+                      The legacy Toop&Toop website did not take into account
+                      what users wanted / needed when they came to the site. It
+                      was difficult to navigate, find properties and find sales
+                      partners / the team alike to make an enquiry.
                     </p>
                   </div>
                 </div>
@@ -121,19 +123,19 @@ export default function FixPlatformManage() {
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/va-website-userflow.jpg"
               />
             </div>
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/va-website-userflow-2.jpg"
               />
             </div>
             <div>
               <img
                 className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
+                src="./static/va-website-userflow-3.jpg"
               />
             </div>
           </div>
@@ -154,10 +156,40 @@ export default function FixPlatformManage() {
         <RightColumn>
           <div className="iteration-grid">
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-aa.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe.jpg"
+              />
             </div>
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-gq.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe-2.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe-5.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/va-website-wireframe-6.jpg"
+              />
             </div>
           </div>
         </RightColumn>

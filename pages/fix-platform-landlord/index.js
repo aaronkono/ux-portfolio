@@ -19,7 +19,7 @@ export default function FixPlatformManage() {
     <Layout>
       <Head>
         <title>
-          Manage - FIX Platform &middot; Aaron Konopka, UX / UI Designer
+          Landlord - FIX Platform &middot; Aaron Konopka, UX / UI Designer
         </title>
       </Head>
       <Nav />
@@ -28,7 +28,9 @@ export default function FixPlatformManage() {
           <Row>
             <Col xs={12}>
               <PortfolioHeader
-                projectTitle={<h2 className="f-bold">Manage - FIX Platform</h2>}
+                projectTitle={
+                  <h2 className="f-bold">Landlord - FIX Platform</h2>
+                }
                 projectOverview={
                   <p className="f-light f-lead">
                     FIX is a SaaS platform which connects tenants, owners,
@@ -44,7 +46,7 @@ export default function FixPlatformManage() {
             <Col>
               <div className="project-header-container d-flex">
                 <div className="project-header-container--innerImg ml-auto">
-                  <img src="./static/manage-fix-header.jpg" />
+                  <img src="./static/landlord-fix-header.jpg" />
                 </div>
               </div>
               <div className="ak--container">
@@ -154,10 +156,52 @@ export default function FixPlatformManage() {
         <RightColumn>
           <div className="iteration-grid">
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-aa.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-portfolio.jpg"
+              />
             </div>
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-gq.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-portfolio-1.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-portfolio-2.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-portfolio-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-portfolio-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-graphs.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-add-job.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-landlord-add-job-2.jpg"
+              />
             </div>
           </div>
         </RightColumn>

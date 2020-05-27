@@ -18,9 +18,7 @@ export default function FixPlatformManage() {
   return (
     <Layout>
       <Head>
-        <title>
-          Manage - FIX Platform &middot; Aaron Konopka, UX / UI Designer
-        </title>
+        <title>Renew Platform &middot; Aaron Konopka, UX / UI Designer</title>
       </Head>
       <Nav />
       <header>
@@ -28,10 +26,10 @@ export default function FixPlatformManage() {
           <Row>
             <Col xs={12}>
               <PortfolioHeader
-                projectTitle={<h2 className="f-bold">Manage - FIX Platform</h2>}
+                projectTitle={<h2 className="f-bold">Renew Platform</h2>}
                 projectOverview={
                   <p className="f-light f-lead">
-                    FIX is a SaaS platform which connects tenants, owners,
+                    Renew is a SaaS platform which connects tenants, owners,
                     property managers and suppliers together.
                   </p>
                 }
@@ -154,10 +152,64 @@ export default function FixPlatformManage() {
         <RightColumn>
           <div className="iteration-grid">
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-aa.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-2.jpg"
+              />
             </div>
             <div>
-              <img className="img-fluid" src="./static/FIX-manage-gq.jpg" />
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-5.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-6.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-7.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-8.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-9.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-assets.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/toop-website-wireframe-thumbnails.jpg"
+              />
             </div>
           </div>
         </RightColumn>

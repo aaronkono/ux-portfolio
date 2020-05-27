@@ -30,7 +30,7 @@ export default function FixPlatformManage() {
               <PortfolioHeader
                 projectTitle={<h2 className="f-bold">Toop&Toop Website</h2>}
                 projectOverview={
-                  <p className="f-light">
+                  <p className="f-light f-lead">
                     Modernise and create a memorable experience for all new and
                     returning clients to the website with cross team
                     collaboration.

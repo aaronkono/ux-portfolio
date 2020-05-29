@@ -8,7 +8,7 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer
+  StickyContainer,
 } from "../../components/stickyScroll";
 import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
@@ -46,33 +46,45 @@ export default function FixPlatformManage() {
                 </div>
               </div>
               <div className="ak--container">
-                <div className="d-flex flex-row flex-wrap">
+                <div className="d-flex flex-row flex-wrap ak--container--innerHeader">
                   <div>
-                    <p className="mb-0">
-                      <strong>Client</strong>
-                    </p>
-                    <p className="">Virtual Agent</p>
-
-                    <p className="mb-0">
-                      <strong>Timeframe</strong>
-                    </p>
-                    <p className="">Ongoing</p>
-
-                    <p className="mb-0 ">
-                      <strong>Specfic Role</strong>
-                    </p>
-                    <p className="mb-0 ">UX Design</p>
-                    <p className="">UI Design</p>
+                    <div>
+                      <p className="mb-0 f-bold">Client</p>
+                      <p className=" f-light f-secondary">Virtual Agent</p>
+                    </div>
+                    <div>
+                      <p className="mb-0 f-bold">Specfic Role</p>
+                      <p className="mb-0 f-light f-secondary">UX Design</p>
+                      <p className="mb-0 f-light f-secondary">UI Design</p>
+                      <p className=" f-light f-secondary">Frontend Dev</p>
+                    </div>
                   </div>
                   <div className="ml-auto" style={{ maxWidth: "475px" }}>
-                    <p className="mb-0 ">
-                      <strong>Problem</strong>
-                    </p>
-                    <p className="f-light">
-                      Aliquam a vestibulum lectus. Cras in velit pellentesque,
-                      consequat purus id, tincidunt leo. Nullam mollis tincidunt
-                      lacus, tempus vulputate nisi blandit sit amet.
-                    </p>
+                    <div>
+                      <p className="mb-0 f-bold">Problem</p>
+                    </div>
+                    <div>
+                      <p className="f-light f-secondary">
+                        Lease Renewals were a manual process for Property
+                        Managers. Documents and information would get lost
+                        regularly which would leave the Landlord in the dark.
+                        Having lost documents and no guiding the Landlord
+                        through the renewal jouryney lead to lost managements.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mb-0 f-bold">The Process</p>
+                    </div>
+                    <div>
+                      <p className="f-light f-secondary mb-36">
+                        The implementation of Renew through the creative process
+                        has created a new experience for Property Managers and
+                        Landlords. Landlords are no longer in the dark as
+                        Property Managers can simply start the renewal process
+                        to give the power to decide how the Landlord want to
+                        proceed with their property.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -83,30 +95,7 @@ export default function FixPlatformManage() {
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h2 className="f-bold mb-0 ">The Process</h2>
-            <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p>
-          </StickyContainer>
-        </LeftColumn>
-        <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-          </div>
-        </RightColumn>
-      </SectionContainer>
-
-      <SectionContainer className="ak--container">
-        <LeftColumn>
-          <StickyContainer>
-            <h2 className="f-bold mb-0 ">User flows</h2>
+            <h3 className="f-bold mb-0 ">User flows</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -141,7 +130,7 @@ export default function FixPlatformManage() {
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h2 className="f-bold mb-0 ">Wireframes</h2>
+            <h3 className="f-bold mb-0 ">Wireframes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -218,7 +207,7 @@ export default function FixPlatformManage() {
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h2 className="f-bold mb-0 ">Prototypes</h2>
+            <h3 className="f-bold mb-0">Prototypes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -255,48 +244,48 @@ export default function FixPlatformManage() {
           <Col>
             <div className="ak--container">
               <h2 className="mb-0 f-bold text-center">Results</h2>
-              <p className="text-center">Metrics & Measurements</p>
+              <p className="text-center f-light f-secondary mb-36">
+                Metrics & Measurements
+              </p>
               <MetricGrid>
-                <div>
+                <div className="metricGrid--inner">
                   <div>
-                    <i className="fal fa-chart-line fa-3x"></i>
+                    <i className="fad fa-chart-line-down"></i>
                   </div>
                   <div>
-                    <h4>80%</h4>
-                    <p className="mb-0">Increased property searchability</p>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <i className="fal fa-chart-line fa-3x"></i>
-                  </div>
-                  <div>
-                    <h4>
-                      80% <i className="fal fa-long-arrow-up"></i>
-                    </h4>
-                    <p className="mb-0">Website retention rate</p>
+                    <h4 className="f-bold">80%</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Increased property searchability
+                    </p>
                   </div>
                 </div>
-                <div>
+                <div className="metricGrid--inner">
                   <div>
-                    <i className="fal fa-chart-line fa-3x"></i>
+                    <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4>
-                      30.98% <i className="fal fa-long-arrow-up"></i>
-                    </h4>
-                    <p className="mb-0">New user traffic</p>
+                    <h4 className="f-bold">30.98%</h4>
+                    <p className="mb-0 f-secondary f-light">New user traffic</p>
                   </div>
                 </div>
-                <div>
+                <div className="metricGrid--inner">
                   <div>
-                    <i className="fal fa-chart-line fa-3x"></i>
+                    <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4>
-                      60% <i className="fal fa-long-arrow-up"></i>
-                    </h4>
-                    <p className="mb-0">
+                    <h4 className="f-bold">80%</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Website retention rate
+                    </p>
+                  </div>
+                </div>
+                <div className="metricGrid--inner">
+                  <div>
+                    <i className="fad fa-chart-line"></i>
+                  </div>
+                  <div>
+                    <h4 className="f-bold">60%</h4>
+                    <p className="mb-0 f-secondary f-light">
                       More efficient at searching for properties
                     </p>
                   </div>
@@ -311,9 +300,9 @@ export default function FixPlatformManage() {
           <Col>
             <div className="ak--container">
               <h2 className="f-bold text-center">Final Product</h2>
-              <p className="text-center mb-36">
-                "Proin elementum, ipsum in ullamcorper tincidunt, libero leo
-                ullamcorper ante"
+              <p className="text-center f-light f-secondary mb-36">
+                I'm not too sure anything can top the feeling when all your hard
+                work is display, check out some screenshots below
               </p>
               <div>
                 <img

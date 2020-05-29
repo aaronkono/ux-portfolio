@@ -6,6 +6,11 @@
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
 }
 .ak-nav {
-  height: 67px;
-  padding: 0 !important;
+  height: 60px;
+  padding: 0 16px !important;
+}
+@media (min-width: 768px) {
+  .ak-nav {
+    padding: 0 !important;
+  }
 }

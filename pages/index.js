@@ -17,8 +17,8 @@ const Home = () => {
     <Layout>
       <Head>
         <title>
-          Aaron Konopka, Product designer with a big dash of UX, UI design
-          methodology
+          Aaron Konopka, Product designer with a big love of User Experience
+          Design
         </title>
       </Head>
       <Nav />
@@ -46,7 +46,7 @@ const Home = () => {
                     UX / UI Designer with a technical background focused on
                     accessible and inclusive design
                   </h1>
-                  <p>
+                  <p className="f-light f-secondary">
                     Hi, Aaron Konopka is the name! I live and breath product
                     design, creating a cohesive balance between UX, UI design
                     and user needs throughout the whole product lifecycle. I

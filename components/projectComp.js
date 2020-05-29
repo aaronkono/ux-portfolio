@@ -22,8 +22,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>FIX Platform - Manage</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A platform for property managers to manage the whole
+                    maintenance life cycle from beginning to end
                   </p>
                 </div>
               </a>
@@ -36,8 +36,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>FIX Platform - Tenant</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A platform for tenants to add, track, manage and receive
+                    updates on their maintenance requests
                   </p>
                 </div>
               </a>
@@ -54,8 +54,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>FIX Platform - Landlord</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A platform for landlords to oversee their investment
+                    property performance
                   </p>
                 </div>
               </a>
@@ -73,8 +73,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>Toop&Toop Website</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A Real Estate Agency website designed to guide their
+                    customers through the selling journey
                   </p>
                 </div>
               </a>
@@ -90,8 +90,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>Lululiv Principal Dashboard</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A dashboard where Real Estate Principals can view their
+                    portfolio performance
                   </p>
                 </div>
               </a>
@@ -108,8 +108,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>Renew Platform</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A platform for a seamless lease renewal process for property
+                    managers, tenants and landords
                   </p>
                 </div>
               </a>
@@ -122,8 +122,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>Virtual Agent Website</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    SaaS company requiring a website to market their B2B / B2C
+                    platforms for real estate agencies
                   </p>
                 </div>
               </a>
@@ -139,8 +139,8 @@ const ProjectContainer = () => (
                 <div>
                   <h4>Lululiv Website</h4>
                   <p className="mb-0">
-                    Sed bibendum, mi sit amet sollicitudin pulvinar, risus augue
-                    luctus lectus
+                    A company requiring a website to market their holistic
+                    solution to Principals
                   </p>
                 </div>
               </a>

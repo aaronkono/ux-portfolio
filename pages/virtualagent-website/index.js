@@ -68,7 +68,7 @@ export default function FixPlatformManage() {
                     <p className="">UI Design</p>
                   </div>
                   <div className="ml-auto" style={{ maxWidth: "475px" }}>
-                    <p className="mb-0 ">
+                    <p className="mb-0 f-bold">
                       <strong>Problem</strong>
                     </p>
                     <p className="f-light">

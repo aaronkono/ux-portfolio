@@ -8,7 +8,7 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer,
+  StickyContainer
 } from "../../components/stickyScroll";
 import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
@@ -46,7 +46,7 @@ export default function FixPlatformManage() {
             <Col>
               <div className="project-header-container d-flex">
                 <div className="project-header-container--innerImg ml-auto">
-                  <img src="./static/landlord-fix-header.jpg" />
+                  <img src="./static/landlord-fix-header-v2.jpg" />
                 </div>
               </div>
               <div className="ak--container">

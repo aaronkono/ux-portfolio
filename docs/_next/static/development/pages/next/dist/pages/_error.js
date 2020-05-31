@@ -270,7 +270,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 
 /***/ }),
 
-/***/ 12:
+/***/ 9:
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fteamva%2FDocuments%2FGitHub%2Fux-portfolio%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \***************************************************************************************************************************************************************************************************/
@@ -293,4 +293,4 @@ eval("module.exports = dll_615b18bb56090b888874;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);

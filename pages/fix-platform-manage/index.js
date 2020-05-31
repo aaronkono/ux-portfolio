@@ -145,6 +145,12 @@ export default function FixPlatformManage() {
         <RightColumn>
           <div className="iteration-grid">
             <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-manage-wireframe.jpg"
+              />
+            </div>
+            <div>
               <img className="img-fluid" src="./static/FIX-manage-aa.jpg" />
             </div>
             <div>

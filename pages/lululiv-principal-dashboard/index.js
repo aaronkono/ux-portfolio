@@ -8,7 +8,7 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer,
+  StickyContainer
 } from "../../components/stickyScroll";
 import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
@@ -145,61 +145,7 @@ export default function FixPlatformManage() {
             <div>
               <img
                 className="img-fluid"
-                src="./static/toop-website-wireframe-2.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-3.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-4.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-5.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-6.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-7.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-8.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-9.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-assets.jpg"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="./static/toop-website-wireframe-thumbnails.jpg"
+                src="./static/lululiv-wireframe-1.jpg"
               />
             </div>
           </div>

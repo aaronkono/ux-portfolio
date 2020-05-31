@@ -10,7 +10,7 @@ const ProjectContainer = () => (
           <h2 className="f-bold text-center ak--body-title">
             Transforming ideas into products
           </h2>
-          <p className="ak--body-subtitle text-center mb-36">
+          <p className="ak--body-subtitle text-center mb-36 f-light f-secondary">
             Process driven design & development from beginning to end
           </p>
           <div className="project-grid">

@@ -1,4 +1,4 @@
-body {
+/* body {
     font-size:14px;
     font-weight:300;
 }
@@ -6,17 +6,17 @@ h3 {
     font-size:12px;
     font-weight:600;
     text-transform: uppercase;
-}
+} */
 .orange-text {
-    color:#E65100;
+  color: #e65100;
 }
 .mb-0 {
-    margin-bottom:0;
+  margin-bottom: 0;
 }
 .resume {
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
     "name"
     "careerObjective"
     "work"
@@ -26,94 +26,94 @@ h3 {
     "education"
     "accomplishments"
     "awards";
-    grid-gap: 5px;
+  grid-gap: 5px;
 }
 .grid-area {
-    padding: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .name {
-    grid-area: name;
+  grid-area: name;
 }
 
 .photo {
-    grid-area: photo;
+  grid-area: photo;
 }
 
 .careerObjective {
-    grid-area: careerObjective;
+  grid-area: careerObjective;
 }
 
 .references {
-    grid-area: references;
+  grid-area: references;
 }
 
 .work {
-    grid-area: work;
+  grid-area: work;
 }
 
 .tools {
-    grid-area: tools;
+  grid-area: tools;
 }
 
 .experience {
-    grid-area: experience;
+  grid-area: experience;
 }
 
 .accomplishments {
-    grid-area: accomplishments;
+  grid-area: accomplishments;
 }
 .programming {
-    grid-area: programming;
+  grid-area: programming;
 }
 .awards {
-    grid-area: awards;
+  grid-area: awards;
 }
 
 /* align cv to center of page */
 
-    .wrapper {
-        padding       : 0;
-        display       : flex;
-        flex-direction: column;
-        align-items   : center;
-        max-width:900px;
-        margin:0 auto;
-    }
+.wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
 @media (min-width: 900px) {
-    .resume {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-areas:
-            "name photo"
-            "about about"
-            "work work"
-            "education education"
-            "skills skills"
-            "community community"
-            "references references";
-        grid-gap: 5px;
-    }
+  .resume {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "name photo"
+      "about about"
+      "work work"
+      "education education"
+      "skills skills"
+      "community community"
+      "references references";
+    grid-gap: 5px;
+  }
 }
 
-@media (min-width:1200px) {
-    .resume {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: min-content minmax(min-content, max-content) min-content;
-        grid-template-areas:
-            "name                name"
-            "careerObjective     work"
-            "experience          programming"
-            "experience          tools"
-            "experience          accomplishments"
-            "experience          awards"
-            "education           awards";
-        grid-gap: 15px;
-        min-width: 0;
-        min-height:0;
-    }
+@media (min-width: 1200px) {
+  .resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content minmax(min-content, max-content) min-content;
+    grid-template-areas:
+      "name                name"
+      "careerObjective     work"
+      "experience          programming"
+      "experience          tools"
+      "experience          accomplishments"
+      "experience          awards"
+      "education           awards";
+    grid-gap: 15px;
+    min-width: 0;
+    min-height: 0;
+  }
 }
 .education {
-    grid-area:education;
+  grid-area: education;
 }

@@ -17,9 +17,20 @@ const Home = () => {
     <Layout>
       <Head>
         <title>
-          Aaron Konopka, Product designer with a big love of User Experience
-          Design
+          Aaron Konopka &middot; UX / UI Designer with a technical background
+          focused on accessible and inclusive design
         </title>
+        <meta property="og:url" content="https://aaronkono.com" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Aaron Konopka &middot; Product Designer focusing on creating engaging user experiences"
+        />
+        <meta
+          property="og:description"
+          content="Product, UX and UI Designer with a technical background focused on accessible and inclusive design"
+        />
+        <meta property="og:image" content="" />
       </Head>
       <Nav />
       <Container
@@ -32,17 +43,6 @@ const Home = () => {
               <div className="ak--container d-flex h-100 align-items-center justify-content-center flex-column ">
                 <div className={"header-main-text" + customClassName}>
                   <h1 className={"f-bold header-font mb-18"}>
-                    {/* Hi, Aaron Konopka is the name! I live and breath product
-                    design. My specialty lies in creating a cohesive balance
-                    between UX and UI design, throughout the whole product
-                    lifecycle. I also come neatly packaged with a technical
-                    background and an impeccable taste is shoes. Pleasure to
-                    meet you... */}
-                    {/* Hi, Aaron Konopka is the name! I live and breath product
-                    design, creating a cohesive balance between UX, UI design
-                    and user needs throughout the whole product lifecycle. I
-                    also come neatly packaged with a technical background and an
-                    impeccable taste is shoes. Pleasure to meet you... */}
                     UX / UI Designer with a technical background focused on
                     accessible and inclusive design
                   </h1>

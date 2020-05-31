@@ -8,7 +8,7 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer,
+  StickyContainer
 } from "../../components/stickyScroll";
 import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
@@ -157,6 +157,18 @@ export default function FixPlatformManage() {
               <img
                 className="img-fluid"
                 src="./static/FIX-tenant-wireframe-3.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-tenant-wireframe-4.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className="img-fluid"
+                src="./static/FIX-tenant-wireframe-5.jpg"
               />
             </div>
           </div>

@@ -8,6 +8,7 @@ class CtaContainer extends React.Component {
       <Container
         fluid={true}
         className="ak--container-spacer ak--blue-container"
+        id="get-in-touch"
       >
         <Row>
           <Col xs={12}>

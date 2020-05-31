@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import Layout from "../../components/layout";
 import Nav from "../../components/nav";
 import PortfolioHeader from "../../components/portfolioHeader";
@@ -8,7 +9,7 @@ import {
   SectionContainer,
   LeftColumn,
   RightColumn,
-  StickyContainer,
+  StickyContainer
 } from "../../components/stickyScroll";
 import { MetricGrid } from "../../components/metricMeasurements";
 import CtaContainer from "../../components/ctaContainer";
@@ -90,10 +91,11 @@ export default function FixPlatformManage() {
           </Row>
         </Container>
       </header>
+
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h3 className="f-bold mb-0 ">User flows</h3>
+            <h3 className="f-bold mb-0 ">User flows / Wireframes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -121,23 +123,6 @@ export default function FixPlatformManage() {
                 src="./static/va-website-userflow-3.jpg"
               />
             </div>
-          </div>
-        </RightColumn>
-      </SectionContainer>
-
-      <SectionContainer className="ak--container">
-        <LeftColumn>
-          <StickyContainer>
-            <h3 className="f-bold mb-0 ">Wireframes</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
-          </StickyContainer>
-        </LeftColumn>
-        <RightColumn>
-          <div className="iteration-grid">
             <div>
               <img
                 className="img-fluid"
@@ -182,27 +167,14 @@ export default function FixPlatformManage() {
         <LeftColumn>
           <StickyContainer>
             <h3 className="f-bold mb-0 ">Prototypes</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
+            <p className="f-light f-secondary">
+              No prototypes available. The turnaround time of three days didn't
+              allow for the creation of a interactive prototype.
+            </p>
           </StickyContainer>
         </LeftColumn>
         <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
+          <div className="iteration-grid ig-prototype">
             <div>
               <img
                 className="img-fluid"
@@ -224,12 +196,12 @@ export default function FixPlatformManage() {
               <MetricGrid>
                 <div className="metricGrid--inner">
                   <div>
-                    <i className="fad fa-chart-line-down"></i>
+                    <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">80%</h4>
+                    <h4 className="f-bold">49.5%</h4>
                     <p className="mb-0 f-secondary f-light">
-                      Increased property searchability
+                      First interaction to the product page
                     </p>
                   </div>
                 </div>
@@ -238,18 +210,9 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">30.98%</h4>
-                    <p className="mb-0 f-secondary f-light">New user traffic</p>
-                  </div>
-                </div>
-                <div className="metricGrid--inner">
-                  <div>
-                    <i className="fad fa-chart-line"></i>
-                  </div>
-                  <div>
-                    <h4 className="f-bold">80%</h4>
+                    <h4 className="f-bold">1:40</h4>
                     <p className="mb-0 f-secondary f-light">
-                      Website retention rate
+                      Avg. Session Duration
                     </p>
                   </div>
                 </div>
@@ -258,9 +221,9 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">60%</h4>
+                    <h4 className="f-bold">1.93</h4>
                     <p className="mb-0 f-secondary f-light">
-                      More efficient at searching for properties
+                      Pages seen per session
                     </p>
                   </div>
                 </div>
@@ -276,13 +239,39 @@ export default function FixPlatformManage() {
               <h2 className="f-bold text-center">Final Product</h2>
               <p className="text-center f-light f-secondary mb-36">
                 I'm not too sure anything can top the feeling when all your hard
-                work is display, check out some screenshots below
+                work is display, check out some screenshots below or{" "}
+                <a
+                  className="ak--weblink"
+                  href="https://virtualagent.com.au"
+                  target="_blank"
+                >
+                  visit the website <i className="fal fa-external-link"></i>
+                </a>
               </p>
-              <div>
-                <img
-                  className="img-fluid"
-                  src="./static/toop-website-header.jpg"
-                />
+              <div className="ak--boxShadow">
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/virtualagent-website-product-1.jpg"
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/virtualagent-website-product-2.jpg"
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/virtualagent-website-product-3.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
           </Col>

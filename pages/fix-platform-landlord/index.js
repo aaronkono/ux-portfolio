@@ -96,46 +96,10 @@ export default function FixPlatformManage() {
           </Row>
         </Container>
       </header>
-
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h3 className="f-bold mb-0 ">User flows</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
-          </StickyContainer>
-        </LeftColumn>
-        <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-          </div>
-        </RightColumn>
-      </SectionContainer>
-
-      <SectionContainer className="ak--container">
-        <LeftColumn>
-          <StickyContainer>
-            <h3 className="f-bold mb-0 ">Wireframes</h3>
+            <h3 className="f-bold mb-0 ">User flows / Wireframes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -201,27 +165,14 @@ export default function FixPlatformManage() {
         <LeftColumn>
           <StickyContainer>
             <h3 className="f-bold mb-0 ">Prototypes</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
+            <p className="f-light f-secondary">
+              No prototypes available. I am seeking clearance from Virtual Agent
+              to display these on my portfolio.
+            </p>
           </StickyContainer>
         </LeftColumn>
         <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
+          <div className="iteration-grid ig-prototype">
             <div>
               <img
                 className="img-fluid"
@@ -246,9 +197,9 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line-down"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">73.3%</h4>
+                    <h4 className="f-bold">$1,000s saved</h4>
                     <p className="mb-0 f-secondary f-light">
-                      Reduction in email traffic
+                      No more unwated call out fees
                     </p>
                   </div>
                 </div>
@@ -257,8 +208,10 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">171.15 hours</h4>
-                    <p className="mb-0 f-secondary f-light">Saved per week</p>
+                    <h4 className="f-bold">50%</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Reduced back and forward emails
+                    </p>
                   </div>
                 </div>
                 <div className="metricGrid--inner">
@@ -266,17 +219,10 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">171.15 hours</h4>
-                    <p className="mb-0 f-secondary f-light">Saved per week</p>
-                  </div>
-                </div>
-                <div className="metricGrid--inner">
-                  <div>
-                    <i className="fad fa-chart-line"></i>
-                  </div>
-                  <div>
-                    <h4 className="f-bold">171.15 hours</h4>
-                    <p className="mb-0 f-secondary f-light">Saved per week</p>
+                    <h4 className="f-bold">All landlords</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      See their portfolio, job history and performance
+                    </p>
                   </div>
                 </div>
               </MetricGrid>
@@ -296,7 +242,7 @@ export default function FixPlatformManage() {
               <div>
                 <img
                   className="img-fluid"
-                  src="./static/toop-website-header.jpg"
+                  src="./static/landlord-fix-header-v2.jpg"
                 />
               </div>
             </div>

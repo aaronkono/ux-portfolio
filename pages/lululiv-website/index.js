@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import Layout from "../../components/layout";
 import Nav from "../../components/nav";
 import PortfolioHeader from "../../components/portfolioHeader";
@@ -94,42 +95,7 @@ export default function FixPlatformManage() {
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h3 className="f-bold mb-0 ">User flows</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
-          </StickyContainer>
-        </LeftColumn>
-        <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-          </div>
-        </RightColumn>
-      </SectionContainer>
-
-      <SectionContainer className="ak--container">
-        <LeftColumn>
-          <StickyContainer>
-            <h3 className="f-bold mb-0 ">Wireframes</h3>
+            <h3 className="f-bold mb-0 ">User flows / Wireframes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -183,27 +149,15 @@ export default function FixPlatformManage() {
         <LeftColumn>
           <StickyContainer>
             <h3 className="f-bold mb-0 ">Prototypes</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
+            <p className="f-light f-secondary">
+              No prototypes available. The time constriant of this project
+              didn't allow for interactive prototyping, this went straight into
+              development after the inital user flow / wireframing stage.
+            </p>
           </StickyContainer>
         </LeftColumn>
         <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
+          <div className="iteration-grid ig-prototype">
             <div>
               <img
                 className="img-fluid"
@@ -225,44 +179,44 @@ export default function FixPlatformManage() {
               <MetricGrid>
                 <div className="metricGrid--inner">
                   <div>
+                    <i className="fad fa-chart-line"></i>
+                  </div>
+                  <div>
+                    <h4 className="f-bold">22</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      New Real Estate Principal enquiries
+                    </p>
+                  </div>
+                </div>
+                <div className="metricGrid--inner">
+                  <div>
+                    <i className="fad fa-chart-line"></i>
+                  </div>
+                  <div>
+                    <h4 className="f-bold">2:37</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Avg. Session Duration
+                    </p>
+                  </div>
+                </div>
+                <div className="metricGrid--inner">
+                  <div>
+                    <i className="fad fa-chart-line"></i>
+                  </div>
+                  <div>
+                    <h4 className="f-bold">4.27</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Pages seen per session
+                    </p>
+                  </div>
+                </div>
+                <div className="metricGrid--inner">
+                  <div>
                     <i className="fad fa-chart-line-down"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">80%</h4>
-                    <p className="mb-0 f-secondary f-light">
-                      Increased property searchability
-                    </p>
-                  </div>
-                </div>
-                <div className="metricGrid--inner">
-                  <div>
-                    <i className="fad fa-chart-line"></i>
-                  </div>
-                  <div>
-                    <h4 className="f-bold">30.98%</h4>
-                    <p className="mb-0 f-secondary f-light">New user traffic</p>
-                  </div>
-                </div>
-                <div className="metricGrid--inner">
-                  <div>
-                    <i className="fad fa-chart-line"></i>
-                  </div>
-                  <div>
-                    <h4 className="f-bold">80%</h4>
-                    <p className="mb-0 f-secondary f-light">
-                      Website retention rate
-                    </p>
-                  </div>
-                </div>
-                <div className="metricGrid--inner">
-                  <div>
-                    <i className="fad fa-chart-line"></i>
-                  </div>
-                  <div>
-                    <h4 className="f-bold">60%</h4>
-                    <p className="mb-0 f-secondary f-light">
-                      More efficient at searching for properties
-                    </p>
+                    <h4 className="f-bold">32%</h4>
+                    <p className="mb-0 f-secondary f-light">Bounce rate</p>
                   </div>
                 </div>
               </MetricGrid>
@@ -277,13 +231,53 @@ export default function FixPlatformManage() {
               <h2 className="f-bold text-center">Final Product</h2>
               <p className="text-center mb-36 f-light f-secondary mb-36">
                 I'm not too sure anything can top the feeling when all your hard
-                work is display, check out some screenshots below
+                work is display, check out some screenshots below or{" "}
+                <a
+                  className="ak--weblink"
+                  href="https://lululiv.com"
+                  target="_blank"
+                >
+                  visit the website <i className="fal fa-external-link"></i>
+                </a>
               </p>
-              <div>
-                <img
-                  className="img-fluid"
-                  src="./static/toop-website-header.jpg"
-                />
+              <div className="ak--boxShadow">
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/lululiv-website-product-1.jpg"
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/lululiv-website-product-2.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/lululiv-website-product-3.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/lululiv-website-product-4.jpg"
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/lululiv-website-product-5.jpg"
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
           </Col>

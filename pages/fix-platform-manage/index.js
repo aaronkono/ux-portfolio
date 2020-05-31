@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import Layout from "../../components/layout";
 import Nav from "../../components/nav";
 import PortfolioHeader from "../../components/portfolioHeader";
@@ -99,42 +100,7 @@ export default function FixPlatformManage() {
       <SectionContainer className="ak--container">
         <LeftColumn>
           <StickyContainer>
-            <h3 className="f-bold mb-0 ">User flows</h3>
-            {/* <p className="f-light">
-              Focusing on user needs and empathising, the journey throughout the
-              product lifecycle began. The website went through multiple
-              different iterations, let's dive into it!
-            </p> */}
-          </StickyContainer>
-        </LeftColumn>
-        <RightColumn>
-          <div className="iteration-grid">
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-          </div>
-        </RightColumn>
-      </SectionContainer>
-
-      <SectionContainer className="ak--container">
-        <LeftColumn>
-          <StickyContainer>
-            <h3 className="f-bold mb-0 ">Wireframes</h3>
+            <h3 className="f-bold mb-0 ">User flows / Wireframes</h3>
             {/* <p className="f-light">
               Focusing on user needs and empathising, the journey throughout the
               product lifecycle began. The website went through multiple
@@ -172,24 +138,27 @@ export default function FixPlatformManage() {
           </StickyContainer>
         </LeftColumn>
         <RightColumn>
-          <div className="iteration-grid">
+          <div className="iteration-grid ig-prototype">
             <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
-            </div>
-            <div>
-              <img
-                className="img-fluid"
-                src="https://images.unsplash.com/photo-1561123760-0b8467594a63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80"
-              />
+              <a
+                target="_blank"
+                href="https://www.figma.com/proto/6Elrj4Z3Kot45s1ew3vwzr/FIX-communication-low-fidelity-prototype?scaling=scale-down&node-id=1%3A3"
+              >
+                <img
+                  className="img-fluid mb-1"
+                  src="./static/FIX-manage-prototype-1.jpg"
+                />
+              </a>
+              <p className="f-light f-secondary">
+                <a
+                  className="btn btn-ak--text position-relative f-light"
+                  target="_blank"
+                  href="https://www.figma.com/proto/6Elrj4Z3Kot45s1ew3vwzr/FIX-communication-low-fidelity-prototype?scaling=scale-down&node-id=1%3A3"
+                >
+                  Go to the prototype <i className="fal fa-external-link"></i>
+                  <div className="btn-ak--textUnderline"></div>
+                </a>
+              </p>
             </div>
           </div>
         </RightColumn>
@@ -229,8 +198,10 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">171.15 hours</h4>
-                    <p className="mb-0 f-secondary f-light">Saved per week</p>
+                    <h4 className="f-bold">One minute per workorder</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Saved hours of back and forward emails
+                    </p>
                   </div>
                 </div>
                 <div className="metricGrid--inner">
@@ -238,8 +209,10 @@ export default function FixPlatformManage() {
                     <i className="fad fa-chart-line"></i>
                   </div>
                   <div>
-                    <h4 className="f-bold">171.15 hours</h4>
-                    <p className="mb-0 f-secondary f-light">Saved per week</p>
+                    <h4 className="f-bold">Zero</h4>
+                    <p className="mb-0 f-secondary f-light">
+                      Back and forward communication emails
+                    </p>
                   </div>
                 </div>
               </MetricGrid>
@@ -256,11 +229,37 @@ export default function FixPlatformManage() {
                 I'm not too sure anything can top the feeling when all your hard
                 work is display, check out some screenshots below
               </p>
-              <div>
-                <img
-                  className="img-fluid"
-                  src="./static/toop-website-header.jpg"
-                />
+              <div className="ak--boxShadow">
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/fix-manage-product-1.jpg"
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/fix-manage-product-2.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/fix-manage-product-3.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="./static/fix-manage-product-4.jpg"
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
           </Col>

@@ -9,6 +9,13 @@
   height: 60px;
   padding: 0 16px !important;
 }
+.ak-nav a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.ak-nav a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
 @media (min-width: 768px) {
   .ak-nav {
     padding: 0 !important;

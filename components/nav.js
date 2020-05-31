@@ -6,9 +6,8 @@ import "../components/nav.css";
 const links = [
   { href: "/", label: "Home" },
   { href: "/portfolio", label: "Portfolio" },
-  { href: "/cv", label: "CV" },
-  { href: "", label: "" },
-].map((link) => {
+  { href: "./static/aaronkonopka-cv.pdf", label: "CV" }
+].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
 });
@@ -17,7 +16,7 @@ const Navigation = () => (
   <Navbar className="ak-nav navNothing">
     <div className="ak--container d-flex w-100">
       <Navbar.Brand href="/">
-        <strong>Aaron Konopka</strong>
+        <strong>AK</strong>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
@@ -29,7 +28,7 @@ const Navigation = () => (
           ))}
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link>Contact</Nav.Link>
+          <a href="/#get-in-touch">Contact</a>
         </Nav>
       </Navbar.Collapse>
     </div>

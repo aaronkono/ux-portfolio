@@ -85,6 +85,10 @@ p {
 /* .header-vh-100 {
     height:100vh;
 } */
+.panelSubHeading {
+  width: 56ch;
+  margin: 0 auto 36px;
+}
 .bg-bl {
   background-color: #17171d;
 }

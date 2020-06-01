@@ -55,8 +55,6 @@ footer {
   padding: 1.55em 0;
   display: inline-block;
 }
-@media (min-width: 576px) {
-}
 @media (min-width: 768px) {
   .footer-grid {
     display: grid;
@@ -78,8 +76,4 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 35px;
   }
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
 }

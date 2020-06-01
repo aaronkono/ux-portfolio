@@ -3,10 +3,10 @@ import Head from "next/head";
 import Nav from "../components/nav";
 import Layout from "../components/layout";
 import "./index.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectContainer from "../components/projectComp";
 import CtaContainer from "../components/ctaContainer";
-// import Footer from "../components/footer";
+import Footer from "../components/footer";
 
 const Home = () => {
   const [customClassName, setCustomClassName] = useState("");
@@ -80,7 +80,7 @@ const Home = () => {
           </p>
         }
       />
-      {/* <Footer /> */}
+      <Footer />
     </Layout>
   );
 };

@@ -214,7 +214,7 @@ export default function FixPlatformManage() {
           <Col>
             <div className="ak--container">
               <h2 className="f-bold text-center">Final Product</h2>
-              <p className="text-center mb-36 f-light f-secondary">
+              <p className="text-center f-light f-secondary panelSubHeading">
                 I'm not too sure anything can top the feeling when all your hard
                 work is display, check out some screenshots below
               </p>

@@ -181,7 +181,7 @@ export default function FixPlatformManage() {
           <Col>
             <div className="ak--container">
               <h2 className="mb-0 f-bold text-center">Results</h2>
-              <p className="text-center f-light f-secondary mb-36">
+              <p className="text-center f-light f-secondary panelSubHeading">
                 This project is still in the development cycle. The expected
                 metrics will be stated without known metrics or measurements.
               </p>
@@ -229,7 +229,7 @@ export default function FixPlatformManage() {
           <Col>
             <div className="ak--container">
               <h2 className="f-bold text-center">Final Product</h2>
-              <p className="text-center f-light f-secondary mb-36">
+              <p className="text-center f-light f-secondary panelSubHeading">
                 I'm not too sure anything can top the feeling when all your hard
                 work is display, check out some screenshots below
               </p>

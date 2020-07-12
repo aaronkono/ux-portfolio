@@ -59,6 +59,19 @@ p {
   width: 56ch;
   margin: 0 auto 36px;
 }
+.caseStudyContainer {
+  max-width: 580px;
+  margin: 0 auto 16px;
+  padding: 0 15px;
+}
+.breakOutType {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 32px auto 32px;
+}
+.w-33 {
+  width: 33%;
+}
 .bg-bl {
   background-color: #17171d;
 }
@@ -238,6 +251,9 @@ p {
   margin-bottom: 0;
   font-size: 16px;
 }
+.userflowContainer div {
+  padding: 15px;
+}
 @media (min-width: 768px) {
   .ak--container-spacer {
     padding-top: 2.34rem;
@@ -253,6 +269,17 @@ p {
   }
   .ak--container--innerHeader > div:first-of-type div {
     width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-33 {
+    width: 33% !important;
+  }
+  .userflowContainer div {
+    padding: 7.5px;
   }
 }
 @media (min-width: 1200px) {

@@ -15,6 +15,23 @@ const ProjectContainer = () => (
           </p>
           <div className="project-grid">
             <div className="project-thumbnail ">
+              <a href="/inspect-app">
+                <div className="thumbnail-inner">
+                  <img
+                    className="img-fluid"
+                    src="./static/inspect-app-smTh.jpg"
+                  />
+                </div>
+                <div>
+                  <h4>Inspect App Case Study</h4>
+                  <p className="mb-0">
+                    An application for leasing agents to run inspections and
+                    gather information
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="project-thumbnail ">
               <a href="/fix-platform-manage">
                 <div className="thumbnail-inner">
                   <img className="img-fluid" src="./static/manage-fix-th.jpg" />

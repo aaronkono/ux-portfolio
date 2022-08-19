@@ -1,0 +1,21 @@
+{
+  "name": "aaronkonopka",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build && next export && rm -rf ./docs && mv ./out ./docs && rm -rf ./out && cp CNAME ./docs && cp .nojekyll ./docs && git add . && git commit -m \"publish\" && git push"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.4.1",
+    "next": "^9.4.2",
+    "react": "16.9.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "16.9.0",
+    "styled-components": "^5.1.0"
+  }
+}

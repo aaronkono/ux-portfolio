@@ -1,0 +1,42 @@
+.ak--form-container {
+  max-width: 435px;
+  margin: 0 auto;
+  position:relative;
+  z-index:2;
+}
+.ctaZi {
+  z-index:2;
+  position:relative;
+}
+.fc-ak--input {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #fff !important;
+  padding: 12px 16px;
+  height: auto;
+}
+.fc-ak--input:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.01);
+}
+.fc-ak--input::placeholder {
+  color: #fff;
+  opacity: 0.35;
+}
+.ctaContainer {
+  max-width:90%;
+  border-radius:2rem;
+  padding:4rem 0;
+  overflow:hidden;
+  position:relative;
+}
+.ctaSvg {
+  bottom:-210px;
+  right:-120px;
+  width:60%;
+  z-index:1;
+}
+.ak-input {
+  border:none;
+}

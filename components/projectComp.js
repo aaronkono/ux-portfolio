@@ -14,29 +14,47 @@ const ProjectContainer = () => (
             Process driven design & development from beginning to end
           </p>
           <div className="project-grid">
-            <div className="project-thumbnail ">
-              <a href="/inspect-app">
+          <div className="project-thumbnail ">
+              <a href="/scheduling">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/inspect-app-smTh.jpg"
+                    src="./static/scheduling-schedule.png"
                   />
                 </div>
                 <div>
-                  <h4>Inspect App Case Study</h4>
+                  <div className="d-flex flex-row">
+                    <div className="badge badge-blue">
+                      New
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                  </div>
+                  <h4>Scheduling</h4>
                   <p className="mb-0">
-                    An application for leasing agents to run inspections and
-                    gather information
+                  A product offering to help companies manage their site capacity
                   </p>
                 </div>
               </a>
             </div>
+
             <div className="project-thumbnail ">
               <a href="/fix-platform-manage">
                 <div className="thumbnail-inner">
                   <img className="img-fluid" src="./static/manage-fix-th.jpg" />
                 </div>
                 <div>
+                  <div className="d-flex">
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>FIX Platform - Manage</h4>
                   <p className="mb-0">
                     A platform for property managers to manage the whole
@@ -51,6 +69,15 @@ const ProjectContainer = () => (
                   <img className="img-fluid" src="./static/tenant-fix-th.jpg" />
                 </div>
                 <div>
+                <div className="d-flex">
+                  <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>FIX Platform - Tenant</h4>
                   <p className="mb-0">
                     A platform for tenants to add, track, manage and receive
@@ -69,10 +96,45 @@ const ProjectContainer = () => (
                   />
                 </div>
                 <div>
+                  <div className="d-flex">
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>FIX Platform - Landlord</h4>
                   <p className="mb-0">
                     A platform for landlords to oversee their investment
                     property performance
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="project-thumbnail">
+              <a href="/renew-platform">
+                <div className="thumbnail-inner">
+                  <img
+                    className="img-fluid"
+                    src="./static/renew-website-th.jpg"
+                  />
+                </div>
+                <div>
+                <div className="d-flex">
+                  <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
+                  <h4>Renew Platform</h4>
+                  <p className="mb-0">
+                    A platform for a seamless lease renewal process for property
+                    managers, tenants and landords
                   </p>
                 </div>
               </a>
@@ -88,6 +150,15 @@ const ProjectContainer = () => (
                   />
                 </div>
                 <div>
+                <div className="d-flex">
+                  <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>Toop&Toop Website</h4>
                   <p className="mb-0">
                     A Real Estate Agency website designed to guide their
@@ -105,6 +176,15 @@ const ProjectContainer = () => (
                   />
                 </div>
                 <div>
+                  <div className="d-flex">
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>Lululiv Principal Dashboard</h4>
                   <p className="mb-0">
                     A dashboard where Real Estate Principals can view their
@@ -113,30 +193,44 @@ const ProjectContainer = () => (
                 </div>
               </a>
             </div>
-
-            <div className="project-thumbnail">
-              <a href="/renew-platform">
+            <div className="project-thumbnail ">
+              <a href="/inspect-app">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/renew-website-th.jpg"
+                    src="./static/inspect-app-smTh.jpg"
                   />
                 </div>
                 <div>
-                  <h4>Renew Platform</h4>
+                  <div className="d-flex">
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                  </div>
+                  <h4>Inspect App Case Study</h4>
                   <p className="mb-0">
-                    A platform for a seamless lease renewal process for property
-                    managers, tenants and landords
+                    An application for leasing agents to run inspections and
+                    gather information
                   </p>
                 </div>
               </a>
             </div>
+
             <div className="project-thumbnail">
               <a href="/virtualagent-website">
                 <div className="thumbnail-inner">
                   <img className="img-fluid" src="./static/va-website-th.jpg" />
                 </div>
                 <div>
+                <div className="d-flex">
+                  <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>Virtual Agent Website</h4>
                   <p className="mb-0">
                     SaaS company requiring a website to market their B2B / B2C
@@ -154,6 +248,15 @@ const ProjectContainer = () => (
                   />
                 </div>
                 <div>
+                <div className="d-flex">
+                <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      Frontend Dev
+                    </div>
+                  </div>
                   <h4>Lululiv Website</h4>
                   <p className="mb-0">
                     A company requiring a website to market their holistic

@@ -46,7 +46,7 @@ export default function FixPlatformManage() {
                       <p className="f-secondary">Lululiv</p>
                     </div>
                     <div className="w-50">
-                      <p className="mb-4 f-bold">Specfic Role</p>
+                      <p className="mb-4 f-bold">Specific Role</p>
                       <p className="mb-0 f-secondary">UX Design</p>
                       <p className="mb-0 f-secondary">UI Design</p>
                     </div>

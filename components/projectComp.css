@@ -31,9 +31,9 @@
 .project-thumbnail h4 {
   font-weight: 600;
   font-size: 20px;
-  line-height:28px;
-  margin-top:16px;
-  margin-bottom: 4px;
+  line-height:24px;
+  margin-top:12px;
+  margin-bottom: 8px;
 }
 .project-thumbnail p {
   font-size: 14px;
@@ -58,6 +58,31 @@
 .project-thumbnail.dark p {
   color: #231f20;
   opacity: 0.65;
+}
+.badge {
+  margin-top:20px;
+  border-radius:5px;
+  color:#fff;
+  font-size:11px;
+  line-height:16px;
+  padding:2px 8px !important;
+  font-weight:400;
+  display: inline-block;
+}
+.badge-blue {
+  background-color:#0072EF;
+}
+.badge-grey {
+  background-color:#afb1b5;
+}
+.dotDivider {
+  width:3px;height:3px;
+  background-color:#072938;
+  opacity:.68;
+  border-radius:50%;
+  margin-top:28px;
+  margin-left:8px;margin-right:8px;
+  padding:0 !important;
 }
 @media (min-width: 768px) {
   .project-grid {

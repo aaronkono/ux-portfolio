@@ -15,11 +15,36 @@ const ProjectContainer = () => (
           </p>
           <div className="project-grid">
           <div className="project-thumbnail ">
+              <a href="/collaborators">
+                <div className="thumbnail-inner">
+                  <img
+                    className="img-fluid"
+                    src="./static/colabs-thumbnail.png"
+                  />
+                </div>
+                <div>
+                  <div className="d-flex flex-row">
+                    <div className="badge badge-blue">
+                      New
+                    </div>
+                    <div className="dotDivider"></div>
+                    <div className="badge badge-grey">
+                      UX / UI Design
+                    </div>
+                  </div>
+                  <h4>Collaborators case study</h4>
+                  <p className="mb-0">
+                    Learn how I reduced the time on task by 50%+ with this update for users
+                  </p>
+                </div>
+              </a>
+            </div>  
+          <div className="project-thumbnail ">
               <a href="/scheduling">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/scheduling-schedule.png"
+                    src="./static/scheduling-thumbnail.png"
                   />
                 </div>
                 <div>
@@ -43,7 +68,7 @@ const ProjectContainer = () => (
             <div className="project-thumbnail ">
               <a href="/fix-platform-manage">
                 <div className="thumbnail-inner">
-                  <img className="img-fluid" src="./static/manage-fix-th.jpg" />
+                  <img className="img-fluid" src="./static/fixManage-thumbnail.png" />
                 </div>
                 <div>
                   <div className="d-flex">
@@ -66,7 +91,7 @@ const ProjectContainer = () => (
             <div className="project-thumbnail">
               <a href="/fix-platform-tenant">
                 <div className="thumbnail-inner">
-                  <img className="img-fluid" src="./static/tenant-fix-th.jpg" />
+                  <img className="img-fluid" src="./static/fixTenant-thumbnail.png" />
                 </div>
                 <div>
                 <div className="d-flex">
@@ -92,7 +117,7 @@ const ProjectContainer = () => (
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/landlord-fix-th.jpg"
+                    src="./static/landlord-thumbnail.png"
                   />
                 </div>
                 <div>
@@ -118,7 +143,7 @@ const ProjectContainer = () => (
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/renew-website-th.jpg"
+                    src="./static/fixRenew-thumbnail.png"
                   />
                 </div>
                 <div>
@@ -144,7 +169,7 @@ const ProjectContainer = () => (
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/toop-website-th.jpg"
+                    src="./static/toop-thumbnail.png"
                     alt="Toop&Toop"
                     title="Toop&Toop"
                   />
@@ -167,7 +192,7 @@ const ProjectContainer = () => (
                 </div>
               </a>
             </div>
-            <div className="project-thumbnail">
+            {/*<div className="project-thumbnail">
               <a href="/lululiv-principal-dashboard">
                 <div className="thumbnail-inner">
                   <img
@@ -192,13 +217,13 @@ const ProjectContainer = () => (
                   </p>
                 </div>
               </a>
-            </div>
+            </div>*/}
             <div className="project-thumbnail ">
               <a href="/inspect-app">
                 <div className="thumbnail-inner">
                   <img
                     className="img-fluid"
-                    src="./static/inspect-app-smTh.jpg"
+                    src="./static/inspect-thumbnail.png"
                   />
                 </div>
                 <div>
@@ -216,7 +241,7 @@ const ProjectContainer = () => (
               </a>
             </div>
 
-            <div className="project-thumbnail">
+            {/*<div className="project-thumbnail">
               <a href="/virtualagent-website">
                 <div className="thumbnail-inner">
                   <img className="img-fluid" src="./static/va-website-th.jpg" />
@@ -238,7 +263,8 @@ const ProjectContainer = () => (
                   </p>
                 </div>
               </a>
-            </div>
+          </div>*/}
+          {/*
             <div className="project-thumbnail">
               <a href="/lululiv-website">
                 <div className="thumbnail-inner">
@@ -265,6 +291,7 @@ const ProjectContainer = () => (
                 </div>
               </a>
             </div>
+            */}
           </div>
         </div>
       </Col>

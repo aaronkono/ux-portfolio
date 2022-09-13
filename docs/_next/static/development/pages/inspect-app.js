@@ -3895,7 +3895,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 10:
+/***/ 1:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Finspect-app&absolutePagePath=%2FUsers%2Frebeccazanol%2FDocuments%2Fux-portfolio%2Fpages%2Finspect-app%2Findex.js ***!
   \***************************************************************************************************************************************************************/
@@ -3918,4 +3918,4 @@ eval("module.exports = dll_615b18bb56090b888874;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);

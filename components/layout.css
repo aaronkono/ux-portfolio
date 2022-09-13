@@ -365,6 +365,9 @@ button:focus,
 .ctaSvgTwo {
   width:68% !important;
 }
+.no-shadow {
+  box-shadow:none !important;
+}
 @media (min-width: 768px) {
   .ak--container-spacer {
     padding-top: 5rem;

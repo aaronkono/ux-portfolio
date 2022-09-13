@@ -3765,7 +3765,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 9:
+/***/ 1:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frebeccazanol%2FDocuments%2Fux-portfolio%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************/
@@ -3788,4 +3788,4 @@ eval("module.exports = dll_615b18bb56090b888874;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);

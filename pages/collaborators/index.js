@@ -53,7 +53,7 @@ export default function SineCollaborators() {
                 </div>
               </div>
               <div className="d-flex position-relative align-items-center justify-content-center w-50">
-                <img src="./static/colabs-future.png" className="w-100" />
+                <img src="./static/colabs-future.png" className="w-100 z-index-2" />
                 <svg className="position-absolute svg-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <path fill="#CDEBF9" d="M31.9,-34.9C38.1,-17.8,37.4,-4.7,37.5,14C37.6,32.6,38.3,56.8,29.1,61.9C19.8,67,0.6,52.9,-20.4,42.6C-41.3,32.4,-64,26.1,-72,10.8C-80,-4.5,-73.3,-28.8,-58.9,-47.8C-44.4,-66.8,-22.2,-80.5,-4.7,-76.8C12.9,-73.1,25.8,-52,31.9,-34.9Z" transform="translate(100 100)" />
 </svg> 

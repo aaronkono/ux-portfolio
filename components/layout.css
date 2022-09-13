@@ -368,6 +368,9 @@ button:focus,
 .no-shadow {
   box-shadow:none !important;
 }
+.z-index-2 {
+  z-index:2 !important;
+}
 @media (min-width: 768px) {
   .ak--container-spacer {
     padding-top: 5rem;
